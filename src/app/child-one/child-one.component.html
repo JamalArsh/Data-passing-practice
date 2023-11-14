@@ -1,0 +1,7 @@
+<h2>Next line show input from parent component</h2>
+<h3>{{ inputVariable }}</h3>
+
+<div>
+  <input type="text" #inp />
+  <button type="button" (click)="emitValue(inp.value)">+ Add</button>
+</div>
